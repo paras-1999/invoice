@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+backend/node_modules
+# dependencies
+invoice/node_modules
+invoice/.pnp
+invoice/.pnp.js
+
+# testing
+invoice/coverage
+
+# production
+invoice/build
+
+# misc
+invoice/.DS_Store
+invoice/.env.local
+invoice/.env.development.local
+invoice/.env.test.local
+invoice/.env.production.local
+
+invoice/npm-debug.log*
+invoice/yarn-debug.log*
+invoice/yarn-error.log*
